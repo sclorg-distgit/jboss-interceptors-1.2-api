@@ -7,7 +7,7 @@
 
 Name:          %{?scl_prefix}jboss-interceptors-1.2-api
 Version:       1.0.0
-Release:       6.1%{?dist}
+Release:       6.2%{?dist}
 Summary:       Java EE Interceptors 1.2 API
 License:       CDDL or GPLv2 with exceptions
 URL:           https://github.com/jboss/jboss-interceptors-api_spec
@@ -54,6 +54,9 @@ sed -i "s,59,51,;s,Temple Place,Franklin Street,;s,Suite 330,Fifth Floor,;s,0211
 %license LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.0.0-6.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.0.0-6.1
 - Automated package import and SCL-ization
 
